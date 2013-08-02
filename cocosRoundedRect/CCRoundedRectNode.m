@@ -45,29 +45,9 @@ void appendCubicBezier(int startPoint, CGPoint* vertices, CGPoint origin, CGPoin
 		//vertices[startPoint+i] = (ccVertex2F) {x * CC_CONTENT_SCALE_FACTOR(), y * CC_CONTENT_SCALE_FACTOR() };
 		t += 1.0f / segments;
 	}
-	//vertices[segments] = (ccVertex2F) {destination.x * CC_CONTENT_SCALE_FACTOR(), destination.y * CC_CONTENT_SCALE_FACTOR() };
 }
 
-void ccFillPoly( CGPoint *poli, int points, BOOL closePolygon )
-{
-//    ccDrawSolidPoly(poli, points, ccc4f(200,200,200,200));
-//	glDisable(GL_TEXTURE_2D);
-////	glDisableClientState(GL_TEXTURE_COORD_ARRAY);
-////	glDisableClientState(GL_COLOR_ARRAY);
-//	
-//	glVertexPointer(2, GL_FLOAT, 0, poli);
-//	if( closePolygon )
-//		//	 glDrawArrays(GL_LINE_LOOP, 0, points);
-//		glDrawArrays(GL_TRIANGLE_FAN, 0, points);
-//	else
-//		glDrawArrays(GL_LINE_STRIP, 0, points);
-//	
-//	// restore default state
-////	glEnableClientState(GL_COLOR_ARRAY);
-////	glEnableClientState(GL_TEXTURE_COORD_ARRAY);
-//	glEnable(GL_TEXTURE_2D);
-}
-
+ 
 -(void) draw {
 	CGPoint vertices[16];
     
