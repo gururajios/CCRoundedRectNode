@@ -3,7 +3,7 @@
 //  cocosRoundedRect
 //
 //  Created by Gururaj T on 10/06/13.
-//  Copyright BrunoBranded 2013. All rights reserved.
+//  Copyright gururaj.tallur@gmail.com 2013. All rights reserved.
 //
 
 #import "cocos2d.h"

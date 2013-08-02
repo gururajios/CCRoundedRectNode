@@ -1,7 +1,8 @@
 /*
  *  RoundedRectNode.h
  *
- *
+ *  Created by Gururaj T on 10/06/13.
+ *  Copyright gururaj.tallur@gmail.com 2013. All rights reserved.
  */
 
 

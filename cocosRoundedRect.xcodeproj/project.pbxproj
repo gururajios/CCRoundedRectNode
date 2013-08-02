@@ -599,6 +599,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9909709317AC26F700719BB5 /* CCRoundedRectNode */ = {
+			isa = PBXGroup;
+			children = (
+				99E8CE1D1766425F00859F12 /* CCRoundedRectNode.h */,
+				99E8CE1E1766425F00859F12 /* CCRoundedRectNode.m */,
+			);
+			name = CCRoundedRectNode;
+			sourceTree = "<group>";
+		};
+		9909709417AC270400719BB5 /* IOS */ = {
+			isa = PBXGroup;
+			children = (
+				99E8CE0A1766423E00859F12 /* AppDelegate.h */,
+				99E8CE0B1766423E00859F12 /* AppDelegate.mm */,
+				99E8CE0D1766423E00859F12 /* HelloWorldLayer.h */,
+				99E8CE0E1766423E00859F12 /* HelloWorldLayer.mm */,
+				99E8CE101766423E00859F12 /* IntroLayer.h */,
+				99E8CE111766423E00859F12 /* IntroLayer.mm */,
+				99E8CE131766423E00859F12 /* GLES-Render.h */,
+				99E8CE141766423E00859F12 /* GLES-Render.mm */,
+			);
+			name = IOS;
+			sourceTree = "<group>";
+		};
 		99E8CBCB1766423900859F12 = {
 			isa = PBXGroup;
 			children = (
@@ -635,16 +659,8 @@
 		99E8CBE91766423900859F12 /* cocosRoundedRect */ = {
 			isa = PBXGroup;
 			children = (
-				99E8CE1D1766425F00859F12 /* CCRoundedRectNode.h */,
-				99E8CE1E1766425F00859F12 /* CCRoundedRectNode.m */,
-				99E8CE0A1766423E00859F12 /* AppDelegate.h */,
-				99E8CE0B1766423E00859F12 /* AppDelegate.mm */,
-				99E8CE0D1766423E00859F12 /* HelloWorldLayer.h */,
-				99E8CE0E1766423E00859F12 /* HelloWorldLayer.mm */,
-				99E8CE101766423E00859F12 /* IntroLayer.h */,
-				99E8CE111766423E00859F12 /* IntroLayer.mm */,
-				99E8CE131766423E00859F12 /* GLES-Render.h */,
-				99E8CE141766423E00859F12 /* GLES-Render.mm */,
+				9909709417AC270400719BB5 /* IOS */,
+				9909709317AC26F700719BB5 /* CCRoundedRectNode */,
 				99E8CBEA1766423A00859F12 /* Resources */,
 				99E8CC021766423A00859F12 /* libs */,
 				99E8CE061766423E00859F12 /* Supporting Files */,
